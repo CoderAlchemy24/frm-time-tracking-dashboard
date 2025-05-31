@@ -2,7 +2,7 @@ let timeframe = 'weekly';
 let data = [];
 
 
- fetch('https://glittering-gelato-61bd8c.netlify.app/data.json')
+ fetch('/data.json')
   .then(response => response.json())
   .then(json => {
 

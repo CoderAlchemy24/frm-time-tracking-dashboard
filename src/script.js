@@ -2,7 +2,7 @@ let timeframe = 'weekly';
 let data = [];
 
 
- fetch('/data.json')
+ fetch('https://frm-time-tracking-dashboard.vercel.app/data.json')
   .then(response => response.json())
   .then(json => {
 

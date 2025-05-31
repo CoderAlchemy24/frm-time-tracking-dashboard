@@ -1,17 +1,21 @@
+import data from './data.json';
+
 let timeframe = 'weekly';
-let data = [];
+//let data = [];
 
 
- fetch('../data.json')
+ /* fetch('../data.json')
   .then(response => response.json())
   .then(json => {
 
-    data =json;
-    fillCards(data);
-  })
-  .catch(error => {
+    data =json; */
+try
+    {fillCards(data);
+      console.log(data);
+  }
+  catch(error) {
     console.error('Error fetching data:', error);
-  }); 
+  }
 
 
   const cardsContainer = document.querySelector('.dasboard');

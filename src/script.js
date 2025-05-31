@@ -2,7 +2,7 @@ let timeframe = 'weekly';
 let data = [];
 
 
- fetch('data.json')
+ fetch('./src/data.json')
   .then(response => response.json())
   .then(json => {
 

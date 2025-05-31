@@ -359,10 +359,10 @@ body{
    width: 80%;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 64rem) {
     .dashboard{
         max-width: 96vw;
-        min-width: 612px;
+        min-width: 40rem;
         height: fit-content;
         width: 96vw;
        
@@ -473,10 +473,10 @@ body{
    
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 40rem) {
     .dashboard{
       
-        max-width: 612px;
+        max-width: 38rem;
         width: 96%;
         height:fit-content;
        
